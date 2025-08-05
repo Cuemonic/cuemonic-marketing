@@ -1,0 +1,26 @@
+@import url(./_variables.css);
+@import url(./_reset.css);
+
+/* Base styles */
+:root {
+  --background-color: var(--colors-white);
+  --font-color: var(--colors-black);
+  --spacer-base: var(--dimensions-5);
+  font-size: var(--dimensions-base);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  padding: var(--spacer-base);
+}
+
+h1 {
+  color: var(--colors-blue-900);
+  font: var(--text-typography-heading);
+  margin-bottom: var(--spacer-base);
+}
+
+.color-bright {
+  color: var(--colors-texas-flood);
+}
