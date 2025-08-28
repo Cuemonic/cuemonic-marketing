@@ -3,7 +3,7 @@
  */
 
 :root {
-  --colors-black: #34023e;
+  --colors-black: #1a1c19;
   --colors-white: #fbf8f2;
   --colors-blue-jean-blues: #0babec;
   --colors-texas-flood: #0e1af0;
@@ -39,15 +39,15 @@
   --colors-magenta-800: #59046a;
   --colors-magenta-900: #34023e;
   --colors-gray-50: #fbf8f2;
-  --colors-gray-100: #edebe5;
-  --colors-gray-200: #d9d7d2;
-  --colors-gray-300: #bcbbb6;
-  --colors-gray-400: #a1a09c;
-  --colors-gray-500: #84847f;
-  --colors-gray-600: #666662;
-  --colors-gray-700: #4b4c48;
-  --colors-gray-800: #323330;
-  --colors-gray-900: #34023e;
+  --colors-gray-100: #e2e0da;
+  --colors-gray-200: #c9c7c2;
+  --colors-gray-300: #b0afaa;
+  --colors-gray-400: #979692;
+  --colors-gray-500: #7e7e79;
+  --colors-gray-600: #656561;
+  --colors-gray-700: #4c4d49;
+  --colors-gray-800: #333431;
+  --colors-gray-900: #1a1c19;
   --dimensions-0: 0rem;
   --dimensions-1: 0.296rem;
   --dimensions-2: 0.444rem;
@@ -64,17 +64,21 @@
   --dimensions-13: 38.443rem;
   --dimensions-14: 57.665rem;
   --dimensions-15: 86.498rem;
-  --dimensions-base: 19px;
+  --dimensions-base: 22px;
   --dimensions-max: 9999px;
   --text-typography-heading: 900 3.375rem/2.25 Poppins, sans-serif;
-  --text-typography-body: 400 1rem/1.5 Alike, serif;
-  --text-fonts-serif: Alike, serif;
+  --text-typography-body: 370 1rem/1.5 'Newsreader Variable', serif;
+  --text-fonts-serif: 'Newsreader Variable', serif;
   --text-fonts-sans: Poppins, sans-serif;
   --text-sizes-heading: 3.375rem;
   --text-sizes-body: 1rem;
-  --text-weights-light: 200;
-  --text-weights-regular: 400;
-  --text-weights-bold: 900;
+  --text-weights-serif-light: 270;
+  --text-weights-serif-regular: 370;
+  --text-weights-serif-bold: 670;
+  --text-weights-sans-light: 200;
+  --text-weights-sans-regular: 400;
+  --text-weights-sans-bold: 900;
+  --text-line-heights-tight: 1;
   --text-line-heights-normal: 1.5;
   --text-line-heights-large: 2.25;
   --transitions-emphasis: 300ms cubic-bezier(0.5, 0, 1, 1) 0ms;
@@ -85,11 +89,11 @@
   --transitions-durations-short: 100ms;
   --transitions-durations-medium: 300ms;
   --transitions-durations-long: 600ms;
-  --borders-heavy: 0.296rem solid #34023e;
+  --borders-heavy: 0.296rem solid #1a1c19;
   --borders-wireframe: 0.444rem dashed #056d97;
   --borders-styles-solid: solid;
   --borders-styles-dashed: dashed;
-  --shadows-sm: 0rem 0.296rem 0.667rem #34023e;
-  --shadows-lg: 0rem 0.444rem 1rem #34023e;
-  --shadows-multi: 0rem 0.296rem 0.667rem #34023e, 0rem 0.444rem 1rem #34023e;
+  --shadows-sm: 0rem 0.296rem 0.667rem #1a1c19;
+  --shadows-lg: 0rem 0.444rem 1rem #1a1c19;
+  --shadows-multi: 0rem 0.296rem 0.667rem #1a1c19, 0rem 0.444rem 1rem #1a1c19;
 }

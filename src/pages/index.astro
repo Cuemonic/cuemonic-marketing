@@ -1,19 +1,49 @@
-!---
-import "../styles/global.css";
-import '@fontsource/alike';
-import '@fontsource/poppins/200.css';
-import '@fontsource/poppins/400.css';
-import '@fontsource/poppins/900.css';
+---
+import Page from "../layouts/page.astro"
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Cuemonic</title>
-	</head>
-	<body>
-		<h1><span class="color-bright">Cue</span>monic</h1>
-	</body>
-</html>
+<Page title="Cuemonic - Metadata management for production composers">
+  <div class="main">
+    <h2>Tired of managing your cues in a complicated spreadsheet?</h2>
+    <p class="pull">Ever accidentally tried to sign a cue to a second publisher because you forgot to move your files from the "unsigned" folder to the "signed" folder?</p>
+    <p>We get it. You just want a way to manage all the pesky metadata about your cues in one easy place.</p>
+    <p>You signed up to <em>write</em> music. Not manage spreadsheet cells. That's for the business majors.</p>
+    <h2>Meet Cuemonic</h2>
+    <p>In its simplest form, Cuemonic is a metadata database.</p>
+    <h3>What does this mean for you?</h3>
+    <ul>
+      <li>Store all your cue metadata in one place.</li>
+      <li>Enter your cue metadata in a user-friendly form.</li>
+      <li>Search for cues by title, publisher, or any other metadata.</li>
+      <li>Export your metadata to CSV for easy sharing with publishers.</li>
+      <li>Track which cues are signed, unsigned, and in progress.</li>
+      <li>Save your licensing information and apply it to each cue automatically.</li>
+      <li>Store each cue's splits in line with its other data.</li>
+      <li>Never lose track of a cue again.</li>
+    </ul>
+    <h3>Coming soon:</h3>
+    <ul>
+      <li>Bulk import from CSV.</li>
+      <li>Automated metadata suggestions.</li>
+      <li><a>View our roadmap.</a></li>
+    </ul>
+    <h2>How does it work?</h2>
+    <p>Cuemonic is a web app that runs in your browser. It uses a simple database to store your cue metadata, and you can access it from any device with an internet connection.</p>
+    <p>There are three primary ways to interact with your cues:</p>
+    <ol>
+      <li>An input form to create a cue and its metadata.</li>
+      <li>A searchable, filterable, and editable list to see all of your cues in one place.</li>
+      <li>An editable detail page for each cue, where you can view and update all of the metadata for that cue.</li>
+    </ol>
+    <h2>What Cuemonic is not</h2>
+    <p>Cuemonic is not a DAW. It does not store your audio files, and it does not help you write music.</p>
+    <p>Cuemonic is not a music library. It does not play your cues, and it does not help you manage your music files.</p>
+    <p>Cuemonic is not a music publishing platform. It does not help you find publishers, and it does not help you manage your publishing contracts.</p>
+    <p>Cuemonic is not a music licensing platform. It does not help you license your music, and it does not help you manage your licensing agreements.</p>
+    <p class="pull">Cuemonic is a tool to help you manage your cue metadata. It is designed to be simple, easy to use, and <em>focused</em> on solving the metadata problem for production composers.</p>
+    <h2>How to get started</h2>
+    <p>Cuemonic is currently in beta. You can sign up for early access by filling out our interest form.</p>
+    <p><em>Our beta is currently closed.</em></p>
+    <p>We are working hard to get Cuemonic ready for public release. In the meantime, you can follow our progress on BlueSky, or join our Discord community to chat with other composers and get updates on our progress.</p>
+  </div>
+</Page>
