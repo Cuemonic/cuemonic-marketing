@@ -64,7 +64,8 @@
   --dimensions-13: 38.443rem;
   --dimensions-14: 57.665rem;
   --dimensions-15: 86.498rem;
-  --dimensions-base: 22px;
+  --dimensions-base: 19px;
+  --dimensions-large: 22px;
   --dimensions-max: 9999px;
   --text-typography-heading: 900 3.375rem/2.25 Poppins, sans-serif;
   --text-typography-body: 370 1rem/1.5 'Newsreader Variable', serif;
