@@ -21,7 +21,9 @@ body {
   font: var(--text-typography-body);
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   margin-block-end: var(--spacer-base);
   word-spacing: 0.0296em;
 }
@@ -40,7 +42,8 @@ h1 {
   line-height: 1;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: var(--colors-blue-900);
   font: var(--text-typography-heading);
   font-size: var(--dimensions-6);
@@ -59,10 +62,12 @@ h3 {
 .content {
   display: grid;
   grid-template-areas:
-    ". header ." 
-    ". main ." 
+    ". header ."
+    ". main ."
     "footer footer footer";
-  grid-template-columns: minmax(var(--dimensions-4), 5%) fit-content(33em) minmax(var(--dimensions-4), 1fr);
+  grid-template-columns:
+    minmax(var(--dimensions-4), 5%) fit-content(33em)
+    minmax(var(--dimensions-4), 1fr);
   padding-block-start: var(--spacer-base);
 }
 
@@ -94,13 +99,16 @@ h3 {
   background-color: var(--colors-gray-100);
   display: grid;
   grid-area: footer;
-  grid-template-areas: 
+  grid-template-areas:
     ". newsletter ."
     ". social ."
     ". legal ."
     ". contact ."
     "about about about";
-  grid-template-columns: minmax(5%, var(--spacer-base)) 1fr minmax(5%, var(--spacer-base));
+  grid-template-columns: minmax(5%, var(--spacer-base)) 1fr minmax(
+      5%,
+      var(--spacer-base)
+    );
 }
 
 .footer h2 {
@@ -135,7 +143,8 @@ h3 {
   place-content: center;
 }
 
-.about h2, .about p {
+.about h2,
+.about p {
   color: var(--colors-blue-50);
 }
 
@@ -190,13 +199,16 @@ h3 {
 
 @media screen and (min-width: 40em) {
   .footer {
-    grid-template-areas: 
-    ". newsletter newsletter newsletter ."
-    ". contact legal social ."
-    "about about about about about";
-    grid-template-columns: minmax(5%, var(--spacer-base)) repeat(3, 1fr) minmax(5%, var(--spacer-base));
+    grid-template-areas:
+      ". newsletter newsletter newsletter ."
+      ". contact legal social ."
+      "about about about about about";
+    grid-template-columns: minmax(5%, var(--spacer-base)) repeat(3, 1fr) minmax(
+        5%,
+        var(--spacer-base)
+      );
   }
-  
+
   .social {
     justify-content: end;
   }
