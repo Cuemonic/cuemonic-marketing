@@ -1,64 +1,85 @@
 ---
 import "../styles/global.css";
 // Supports weights 200-800
-import '@fontsource-variable/newsreader';
-import '@fontsource/poppins/200.css';
-import '@fontsource/poppins/400.css';
-import '@fontsource/poppins/900.css';
+import "@fontsource-variable/newsreader";
+import "@fontsource/poppins/200.css";
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/900.css";
 const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title}</title>
-</head>
-<body class="content">
-  <header class="header">
-    <img src="/cuemonicLogoConcepts.svg" />
-    <h1><span class="color-bright">Cue</span>monic</h1>
-  </header>
-  <slot />
-  <footer class="footer">
-    <section class="newsletter">
-      <h2>Not ready to sign up?</h2>
-      <p>Join our mailing list to get product updates.</p>
-      <p><em>Mailing list is currently closed.</em></p>
-    </section>
-    <section class="about">
-      <div class="about-logo">
-        <img src="/cuemonicLogoConceptsInverted.svg" />
-        <h2>Cuemonic</h2>
-      </div>
-      <p>&copy; 2025 Cuemonic BV. All rights reserved.</p>
-    </section>
-    <section class="social">
-      <h2>Socials</h2>
-      <p>Coming soon!</p>
-      <!-- <ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://app.termly.io/resource-blocker/029411c2-939d-47c2-a17c-7bb7eb325294?autoBlock=on"
+    ></script>
+    <title>{title}</title>
+  </head>
+  <body class="content">
+    <header class="header">
+      <img src="/cuemonicLogoConcepts.svg" />
+      <h1><span class="color-bright">Cue</span>monic</h1>
+    </header>
+    <slot />
+    <footer class="footer">
+      <section class="newsletter">
+        <h2>Not ready to sign up?</h2>
+        <p>Join our mailing list to get product updates.</p>
+        <p><em>Mailing list is currently closed.</em></p>
+      </section>
+      <section class="about">
+        <div class="about-logo">
+          <img src="/cuemonicLogoConceptsInverted.svg" />
+          <h2>Cuemonic</h2>
+        </div>
+        <p>&copy; 2025 Cuemonic BV. All rights reserved.</p>
+      </section>
+      <section class="social">
+        <h2>Socials</h2>
+        <p>Coming soon!</p>
+        <!-- <ul>
         <li><a href="/">BlueSky</a></li>
         <li><a href="/">Discord</a></li>
       </ul> -->
-    </section>
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>Coming soon!</p>
-      <!-- <address>
-        <p><em>Email:</em></p>
-        <p><a href="mailto:info@cuemonic.com">info@cuemonic.com</a></p>
-      </address> -->
-    </section>
-    <section class="legal">
-      <h2>Legal</h2>
-      <p>Coming soon!</p>
-      <!-- <ul>
-        <li><a href="/">Privacy Policy</a></li>
-        <li><a href="/">Terms of Service</a></li>
-        <li><a href="/">Cookie Policy</a></li>
-      </ul> -->
-    </section>
-  </footer>
-</body>
+      </section>
+      <section class="contact">
+        <h2>Contact</h2>
+        <address>
+          <p><em>Email:</em></p>
+          <p><a href="mailto:info@cuemonic.com">info@cuemonic.com</a></p>
+        </address>
+      </section>
+      <section class="legal">
+        <h2>Legal</h2>
+        <ul>
+          <li>
+            <a
+              href="https://app.termly.io/policy-viewer/policy.html?policyUUID=242082ec-016a-4242-b78c-3f6b3bb89d31"
+              >Privacy Policy</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://app.termly.io/policy-viewer/policy.html?policyUUID=e5731587-f6ed-4e83-b686-9af0875aad88"
+              >Terms of Service</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://app.termly.io/policy-viewer/policy.html?policyUUID=a7d1de05-255d-4896-b8ac-9d881f897921"
+              >Cookie Policy</a
+            >
+          </li>
+          <li>
+            <a href="#" class="termly-display-preferences"
+              >Consent Preferences</a
+            >
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
 </html>
