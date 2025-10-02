@@ -17,6 +17,29 @@ const { title } = Astro.props;
       is:inline
       src="https://app.termly.io/resource-blocker/029411c2-939d-47c2-a17c-7bb7eb325294?autoBlock=on"
     ></script>
+    <!-- MailerLite Universal -->
+    <script>
+      (function (w, d, e, u, f, l, n) {
+        (w[f] =
+          w[f] ||
+          function () {
+            (w[f].q = w[f].q || []).push(arguments);
+          }),
+          (l = d.createElement(e)),
+          (l.async = 1),
+          (l.src = u),
+          (n = d.getElementsByTagName(e)[0]),
+          n.parentNode.insertBefore(l, n);
+      })(
+        window,
+        document,
+        "script",
+        "https://assets.mailerlite.com/js/universal.js",
+        "ml"
+      );
+      ml("account", "1831827");
+    </script>
+    <!-- End MailerLite Universal -->
     <title>{title}</title>
   </head>
   <body class="content">
@@ -28,8 +51,12 @@ const { title } = Astro.props;
     <footer class="footer">
       <section class="newsletter">
         <h2>Not ready to sign up?</h2>
-        <p>Join our mailing list to get product updates.</p>
-        <p><em>Mailing list is currently closed.</em></p>
+        <a
+          class="ml-onclick-form"
+          href="javascript:void(0)"
+          onclick="ml('show', 'bT6L8O', true)"
+          >Join our mailing list to get product updates.</a
+        >
       </section>
       <section class="about">
         <div class="about-logo">
