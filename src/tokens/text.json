@@ -1,0 +1,78 @@
+{
+  "text": {
+    "fonts": {
+      "$type": "fontFamily",
+      "serif": {
+        "$value": "'Newsreader Variable', serif"
+      },
+      "sans": {
+        "$value": "Poppins, sans-serif"
+      }
+    },
+    "sizes": {
+      "$type": "fontSize",
+      "heading": {
+        "$value": "{dimensions.7}"
+      },
+      "body": {
+        "$value": "{dimensions.4}"
+      }
+    },
+    "weights": {
+      "$type": "fontWeight",
+      "serif": {
+        "light": {
+          "$value": "270"
+        },
+        "regular": {
+          "$value": "370"
+        },
+        "bold": {
+          "$value": "670"
+        }
+      },
+      "sans": {
+        "light": {
+          "$value": "200"
+        },
+        "regular": {
+          "$value": "400"
+        },
+        "bold": {
+          "$value": "900"
+        }
+      }
+    },
+    "lineHeights": {
+      "$type": "number",
+      "tight": {
+        "$value": 1
+      },
+      "normal": {
+        "$value": 1.5
+      },
+      "large": {
+        "$value": 2.25
+      }
+    },
+    "typography": {
+      "$type": "typography",
+      "heading": {
+        "$value": {
+          "fontFamily": "{text.fonts.sans}",
+          "fontWeight": "{text.weights.sans.bold}",
+          "fontSize": "{text.sizes.heading}",
+          "lineHeight": "{text.lineHeights.large}"
+        }
+      },
+      "body": {
+        "$value": {
+          "fontFamily": "{text.fonts.serif}",
+          "fontWeight": "{text.weights.serif.regular}",
+          "fontSize": "{text.sizes.body}",
+          "lineHeight": "{text.lineHeights.normal}"
+        }
+      }
+    }
+  }
+}
