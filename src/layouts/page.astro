@@ -23,7 +23,7 @@ const { title } = Astro.props;
     <!-- MailerLite Universal -->
     <script>
       (function (w, d, e, u, f, l, n) {
-        (w[f] =
+        ((w[f] =
           w[f] ||
           function () {
             (w[f].q = w[f].q || []).push(arguments);
@@ -32,13 +32,13 @@ const { title } = Astro.props;
           (l.async = 1),
           (l.src = u),
           (n = d.getElementsByTagName(e)[0]),
-          n.parentNode.insertBefore(l, n);
+          n.parentNode.insertBefore(l, n));
       })(
         window,
         document,
         "script",
         "https://assets.mailerlite.com/js/universal.js",
-        "ml"
+        "ml",
       );
       ml("account", "1831827");
     </script>
@@ -66,7 +66,7 @@ const { title } = Astro.props;
           <img src="/cuemonicLogoConceptsInverted.svg" />
           <h2>Cuemonic</h2>
         </div>
-        <p>&copy; 2025 Cuemonic BV. All rights reserved.</p>
+        <p>&copy; 2025 Artist in the Machine. All rights reserved.</p>
       </section>
       <section class="social">
         <h2>Socials</h2>
@@ -81,6 +81,14 @@ const { title } = Astro.props;
         <address>
           <p><em>Email:</em></p>
           <p><a href="mailto:info@cuemonic.com">info@cuemonic.com</a></p>
+        </address>
+        <address>
+          <p><em>Mailing Address:</em></p>
+          <p>
+            Artist in the Machine</p>
+            <p>Pianostraat 20</p>
+            <p>5642RD Eindhoven</p>
+            <p>The Netherlands</p>
         </address>
       </section>
       <section class="legal">
